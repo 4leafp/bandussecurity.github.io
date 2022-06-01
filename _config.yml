@@ -111,7 +111,7 @@ defaults:
       author_profile: true
   # _recipes
   - scope:
-      path: "_recipes"
+      path: ""
       type: recipes
     values:
       layout: single
@@ -120,7 +120,7 @@ defaults:
       comments: true
   # _pets
   - scope:
-      path: "_pets"
+      path: ""
       type: pets
     values:
       layout: single
@@ -129,7 +129,7 @@ defaults:
       comment: true
   # _portfolio
   - scope:
-      path: "_portfolio"
+      path: ""
       type: portfolio
     values:
       layout: single
