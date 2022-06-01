@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Homepage
+title: Homepage2
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -108,7 +108,7 @@ defaults:
       author_profile: true
   # _recipes
   - scope:
-      path: ""
+      path: "_recipes"
       type: recipes
     values:
       layout: single
@@ -117,7 +117,7 @@ defaults:
       comments: true
   # _pets
   - scope:
-      path: ""
+      path: "_pets"
       type: pets
     values:
       layout: single
@@ -126,7 +126,7 @@ defaults:
       comment: true
   # _portfolio
   - scope:
-      path: ""
+      path: "_portfolio"
       type: portfolio
     values:
       layout: single
